@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="./assets/images/logo-tab.png" />
+    <title>Eatiz</title>
+    <link rel="stylesheet" href="./assets/css/eatiz.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  </head>
+  <!-- header section starts -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img class="header-image" src="./assets/images/logo.png" alt="Eatiz" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Advance Booking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Explore Food</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <img src="./assets/images/profile-icon.png" alt="profile-icon" />
+          <span class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle header-button"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              User
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Advance Booking</a></li>
+              <li><a class="dropdown-item" href="#">Our Services</a></li>
+              <li><a class="dropdown-item" href="#">Explore Food</a></li>
+            </ul>
+          </span>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header section ends -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="banner-content-1">
+            <h1 class="title">Discover Restaurant & Delicious Food</h1>
+          </div>
+        </div>
+        <div class="col-lg-7 big-image">
+          <div class="hero-image">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="set-hero-image"
+                    src="./assets/images/hero-image.png"
+                    alt="banner"
+                  />
+                  <!-- <img
+                    class="set-hero-image2"
+                    src="./assets/images/lettuce.png"
+                    alt="banner"
+                  /> -->
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="set-hero-image"
+                    src="./assets/images/hero-image.png"
+                    alt="banner"
+                  />
+                  <!-- <img
+                    class="set-hero-image2"
+                    src="./assets/images/lettuce.png"
+                    alt="banner"
+                  /> -->
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="set-hero-image"
+                    src="./assets/images/hero-image.png"
+                    alt="banner"
+                  />
+                  <!-- <img
+                    class="set-hero-image2"
+                    src="./assets/images/lettuce.png"
+                    alt="banner"
+                  /> -->
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                  <lottie-player
+                    class="previous-lottie"
+                    src="./assets/json-animations/left-arrow.json "
+                    background="transparent"
+                    speed="1"
+                    autoplay
+                    loop
+                  ></lottie-player
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"
+                  ><lottie-player
+                    class="next-lottie"
+                    src="./assets/json-animations/right-arrow.json"
+                    background="transparent"
+                    speed="1"
+                    autoplay
+                    loop
+                  ></lottie-player
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 small-image">
+        <img
+          class="image-size"
+          src="./assets/images/hero-image.png"
+          alt="banner"
+        />
+      </div>
+    </div>
+  </section>
+
+  <body>
+    <script src="./assets/js/eatiz.js"></script>
+    <script src="./assets/js/lottie.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

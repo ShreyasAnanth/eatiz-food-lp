@@ -1,0 +1,121 @@
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding-left: 150px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 0.5rem 0 4.5rem !important;
+  }
+  .bg-light {
+    /* box-shadow: 0 4px 10px 0 rgb(0 0 0 / 12%) !important; */
+    background: -webkit-linear-gradient(
+      left,
+      rgb(255, 245, 236) 70%,
+      rgb(254, 4, 60) 30%
+    );
+  }
+  .nav-link {
+    color: black !important;
+  }
+  .d-lg-block {
+    display: none;
+  }
+  .navbar-text {
+    color: #ffffff !important;
+  }
+  .header-button {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    padding-right: 120px !important;
+  }
+  .dropdown {
+    max-width: 30px !important;
+  }
+  .navbar-light .navbar-toggler {
+    color: transparent !important;
+    border-color: transparent !important;
+  }
+  .hero-section {
+    background: -webkit-linear-gradient(
+      left,
+      rgb(255, 245, 236) 70%,
+      rgb(254, 4, 60) 30%
+    );
+    padding: 0px 0 130px 0;
+  }
+  .title {
+    color: #2e266f;
+    font-family: Inter, "Segoe UI", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    font-size: 52px;
+    line-height: 60px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-weight: 700;
+  }
+  .small-image {
+    display: none;
+  }
+  .banner-content-1 {
+    padding: 200px 0 0 0;
+  }
+  .hero-image {
+    padding: 7% 0 0 5%;
+  }
+  .set-hero-image {
+    z-index: 10;
+    position: relative;
+    width: 92%;
+  }
+  .set-hero-image2 {
+    position: absolute;
+    right: 10%;
+    top: -10%;
+  }
+  .previous-lottie,
+  .next-lottie {
+    background: yellow;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-light {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 12%) !important;
+    background: -webkit-linear-gradient(
+      left,
+      rgb(255, 245, 236) 70%,
+      rgb(254, 4, 60) 30%
+    );
+  }
+  .header-image {
+    width: 120px;
+    height: 40px;
+  }
+  .header-button {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  .btn-secondary {
+    color: black !important;
+  }
+  .navbar-light .navbar-toggler {
+    color: transparent !important;
+    border-color: transparent !important;
+  }
+  .title {
+    max-width: 252px;
+  }
+  .hero-section {
+    background: -webkit-linear-gradient(
+      left,
+      rgb(255, 245, 236) 70%,
+      rgb(254, 4, 60) 30%
+    );
+    padding: 130px 0 130px 0;
+  }
+  .big-image {
+    display: none;
+  }
+  .image-size {
+    max-width: 270px;
+  }
+}
