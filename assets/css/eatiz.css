@@ -124,6 +124,7 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    margin-top: 13% !important;
   }
   .know-more-lottie {
     max-width: 80px;
@@ -207,6 +208,9 @@
   }
   .card-title .card-text {
     text-align: center;
+  }
+  .km {
+    text-decoration: none;
   }
 }
 
@@ -321,6 +325,9 @@
     color: rgb;
     color: rgb(254, 4, 60);
     font-weight: 700;
+  }
+  .km {
+    text-decoration: none;
   }
   .info {
     display: none;
