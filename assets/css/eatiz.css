@@ -205,6 +205,9 @@
   .ph {
     display: none !important;
   }
+  .card-title .card-text {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -373,5 +376,8 @@
   }
   .sec-4 {
     display: none !important;
+  }
+  .card-title .card-text {
+    text-align: center;
   }
 }
