@@ -216,7 +216,12 @@
     text-align: start;
   }
 }
-
+.submit-button {
+  background: rgb(254, 4, 60);
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+}
 @media (max-width: 768px) {
   .bg-light {
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 12%) !important;
