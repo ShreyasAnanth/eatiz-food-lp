@@ -206,11 +206,14 @@
   .ph {
     display: none !important;
   }
-  .card-title .card-text {
+  .card-title, .card-text {
     text-align: center;
   }
   .km {
     text-decoration: none;
+  }
+  .footer-leaf {
+    text-align: start;
   }
 }
 
@@ -361,6 +364,7 @@
   }
   .footer {
     padding: 20px 0 20px 0;
+    margin-left: 15px;
   }
   .fields {
     border: 1px solid #ced4da;
@@ -384,7 +388,10 @@
   .sec-4 {
     display: none !important;
   }
-  .card-title .card-text {
+  .card-title, .card-text {
     text-align: center;
+  }
+  .footer-leaf {
+    text-align: start;
   }
 }
